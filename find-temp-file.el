@@ -142,10 +142,10 @@ contains a dot, use EXTENSION as the full file name."
               spec))
           specs))
 
-(defun find-temp-file--filename (&optional extension-or-file)
   "Return a full path of a temporary file to be opened. If
 EXTENSION-OR-FILE contains a dot, it is used as file-name. If
 not, it assumes it is the extension of the temporary file, a
+(defun find-temp-file--filename (extension-or-file)
 unique and recognizable name is automatically constructed."
   (let (file-name extension file-template template)
     (if (memq ?. (string-to-list extension-or-file))
