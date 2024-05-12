@@ -87,8 +87,7 @@ The default template is stored in `find-temp-template-default'."
   :type 'alist)
 
 (defcustom find-temp-add-to-history t
-  "Add containing folder to file name history when a temporary
-file is created."
+  "Add containing folder to file name history when a temporary file is created."
   :type 'boolean)
 
 (defmacro find-temp--ext-binding (ext binding)
