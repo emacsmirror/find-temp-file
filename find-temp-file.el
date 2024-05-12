@@ -83,7 +83,7 @@ The default template is stored in `find-temp-template-default'."
   :type 'string)
 
 (defcustom find-temp-custom-spec ()
-  "Additionnal specs that supersede default ones."
+  "Additional specs that supersede default ones."
   :type 'alist)
 
 (defcustom find-temp-add-to-history t
